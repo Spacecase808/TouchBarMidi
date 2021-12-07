@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 924.0, 86.0, 333.0, 151.0 ],
+		"rect" : [ 924.0, 85.0, 333.0, 151.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -116,7 +116,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 559.272056102752686, 162.902945876121521, 150.0, 20.0 ],
+					"patching_rect" : [ 862.0, 116.902945876121521, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 202.496924996376038, 111.0, 110.0, 20.0 ],
 					"text" : "James Myers 2021",
@@ -241,18 +241,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.0, 470.0, 114.0, 22.0 ],
 					"text" : "Touch Bar Display"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 257.5, 126.0, 99.0, 22.0 ],
-					"text" : "touch bar display"
 				}
 
 			}
@@ -416,7 +404,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"items" : [ "Keyboard", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Touch Bar Display", ",", "Touch Bar Backlight", ",", "Ambient Light Sensor", ",", "Touch Bar Backlight 2", ",", "Headset" ],
+					"items" : [ "Keyboard", ",", "USB Sound Blaster HD", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Touch Bar Display", ",", "Touch Bar Backlight", ",", "Ambient Light Sensor", ",", "Touch Bar Backlight 2", ",", "Headset" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -556,7 +544,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-27", 0 ],
-					"order" : 1,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -565,14 +553,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"hidden" : 1,
-					"order" : 3,
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
 					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
@@ -580,8 +560,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-31", 0 ],
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -730,13 +710,6 @@
 					"destination" : [ "obj-5", 0 ],
 					"order" : 1,
 					"source" : [ "obj-7", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-30", 0 ],
-					"source" : [ "obj-8", 0 ]
 				}
 
 			}
