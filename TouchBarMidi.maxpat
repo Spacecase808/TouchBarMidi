@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 924.0, 85.0, 333.0, 151.0 ],
+		"rect" : [ 133.0, 79.0, 362.0, 167.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -221,19 +221,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 7,
-					"numoutlets" : 2,
-					"outlettype" : [ "jit_gl_texture", "" ],
-					"patching_rect" : [ 297.0, 408.0, 82.0, 22.0 ],
-					"text" : "vz.playr",
-					"varname" : "vz.playr"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -404,7 +391,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"id" : "obj-28",
-					"items" : [ "Keyboard", ",", "USB Sound Blaster HD", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Touch Bar Display", ",", "Touch Bar Backlight", ",", "Ambient Light Sensor", ",", "Touch Bar Backlight 2", ",", "Headset" ],
+					"items" : [ "Keyboard", ",", "HuddleCamHD", ",", "USB Optical Mouse", ",", "Touch Bar Backlight", ",", "Touch Bar Display", ",", "Apple Internal Keyboard / Trackpad", ",", "Apple Internal Keyboard / Trackpad 2", ",", "Apple Internal Keyboard / Trackpad 3", ",", "Touch Bar Backlight 2", ",", "Headset", ",", "Apple Internal Keyboard / Trackpad 4", ",", "Apple Internal Keyboard / Trackpad 5", ",", "Ambient Light Sensor" ],
 					"labelclick" : 1,
 					"maxclass" : "umenu",
 					"numinlets" : 1,
@@ -721,84 +708,10 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-12::obj-10" : [ "pictctrl[1]", "pictctrl[1]", 0 ],
-			"obj-12::obj-112::obj-119" : [ "Speed high", "Speed high", 0 ],
-			"obj-12::obj-112::obj-120" : [ "Rate range", "Rate range", 0 ],
-			"obj-12::obj-112::obj-121" : [ "Speed low", "Speed low", 0 ],
-			"obj-12::obj-112::obj-16" : [ "Playback range", "Playback range", 0 ],
-			"obj-12::obj-112::obj-40" : [ "Playback controls", "Playback controls", 0 ],
-			"obj-12::obj-112::obj-79" : [ "Playback position", "Playback position", 0 ],
-			"obj-12::obj-112::obj-89" : [ "Reset range", "Reset range", 0 ],
-			"obj-12::obj-112::obj-92" : [ "Reset speed", "Reset speed", 0 ],
-			"obj-12::obj-20" : [ "pictctrl[2]", "pictctrl[1]", 0 ],
-			"obj-12::obj-28" : [ "pictctrl[279]", "pictctrl[1]", 0 ],
-			"obj-12::obj-40" : [ "pictctrl[283]", "pictctrl[1]", 0 ],
-			"obj-12::obj-51" : [ "moviepath", "moviepath", 0 ],
-			"obj-12::obj-60" : [ "pictctrl[282]", "pictctrl[1]", 0 ],
-			"obj-12::obj-64" : [ "pictctrl[284]", "pictctrl[1]", 0 ],
-			"obj-12::obj-81" : [ "pictctrl[281]", "pictctrl[1]", 0 ],
-			"obj-12::obj-83" : [ "pictctrl[280]", "pictctrl[1]", 0 ],
-			"obj-12::obj-89" : [ "moviename", "moviename", 0 ],
-			"parameterbanks" : 			{
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "helpargs.js",
 				"bootpath" : "C74:/help/resources",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vz.playr.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "data-handler.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-object.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vizzie-global.js",
-				"bootpath" : "C74:/packages/Vizzie/code",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "playr_controls.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lo_hi_UI_control.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-pwindow.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vzgl-blackframe.maxpat",
-				"bootpath" : "C74:/packages/Vizzie/patchers/utils",
-				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
